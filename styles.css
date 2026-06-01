@@ -141,6 +141,7 @@ transform:scale(1.05);
 .skills-section,
 .education-section,
 .experience-section,
+.certifications-section,
 .contact-section{
 
 padding:0 50px;
@@ -215,6 +216,50 @@ font-size:28px;
 
 color:var(--link-color);
 
+}
+
+
+/* CERTIFICATIONS */
+
+.certifications-section{
+    padding:0 50px;
+    margin-bottom:100px;
+}
+
+.certifications-section h2{
+    text-align:center;
+    font-size:35px;
+    margin-bottom:30px;
+}
+
+.certifications-section .cells{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.certifications-section .cell{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    padding:15px 25px;
+    background:white;
+    margin:10px;
+    border-radius:12px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+}
+
+.certifications-section .cell:hover{
+    transform:translateY(-5px);
+}
+
+.certifications-section .cell i{
+    font-size:28px;
+    color:var(--link-color);
 }
 
 
